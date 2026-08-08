@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://task-manager-qhgi.onrender.com",
+  baseURL: "https://task-manager-qhgi.onrender.com/api",
 });
 
 export const getTasks = () => {
